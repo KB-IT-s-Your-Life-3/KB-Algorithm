@@ -101,7 +101,7 @@ https://hgko1207.github.io/2020/05/18/eclipse-git-clone/
 * Content : 특별한 내용이 없다면 생략가능 (특별한 내용 : 못푼 문제, 다른 방법으로 여러개 푼 문제..등)
 ![image](https://user-images.githubusercontent.com/52391627/229076361-c16746d6-81d2-4d3d-ab89-619f372d6179.png)
 > PR을 보내면?
-* 꼭 !!!!!!!!!!!!!!!!!! ** This branch has no conflicts with the base branch ** 문구 확인 필수
+* 꼭 !!!!!!!!!!!!!!!!!! **This branch has no conflicts with the base branch** 문구 확인 필수
    * 현재는 별 문제 없겠지만, 프로젝트를 진행하면 충돌나는 경우가 다수 있다. 
 ![화면 캡처 2023-03-31 180508](https://user-images.githubusercontent.com/52391627/229077167-dbffb9db-9f43-488e-95be-447dc4939505.png)
 ubusercontent.com/52391627/229076361-c16746d6-81d2-4d3d-ab89-619f372d6179.png)
