@@ -33,7 +33,8 @@ Github는 Git을 기반으로 소스코드를 관리해주고 코드를 공유�
 ### 3. 본인이 사용하는 IDE(ex. Eclipse, IntelliJ, VScode)의 초기 화면에서  **Get from VCS**  와 같은 기능을 찾아주고, url를 붙여넣어 프로젝트를 실행해줍니다. 
 * Eclipse 와 Git repositoey 연결 방법
 https://hgko1207.github.io/2020/05/18/eclipse-git-clone/
-* IntelliJ, VScode는 연결 방법이 직관적이므로 따로 올리지 않겠습니다.
+* VScode 와 Git repositoey 연결 방법
+![image](https://user-images.githubusercontent.com/52391627/229070780-7a1efbe8-e21a-4a47-b50d-2b1ef6220f10.png)
 
 ### 4. IDE에서 문제를 풀어줍니다. 
 ### 5. 1문제당 1commit을 해줍니다. 
@@ -42,3 +43,20 @@ https://hgko1207.github.io/2020/05/18/eclipse-git-clone/
   ```
    git commit -m "[정길연] 백준 1893번 문제풀이"
   ```
+  
+> Commit이 뭔데..? 
+
+git add를 통해 원하는 폴더내의 수정내역들을 스테이징 에리아에 올립니다. 
+ 스테이징 에리아(Staging Area)는 깃 커밋을 하기 전에 저장되는 깃 공간을 의미해요. 
+
+스테이지에 올린 파일 수정내역들을 git commit 명령어를 이용해 로컬저장소에 저장해줍니다. 
+여기까지하면 로컬에만 저장될뿐, 나와 같이 프로젝트를 진행하는 다른 개발자는 변경내역을 확인할 수 없어요. 
+![image](https://user-images.githubusercontent.com/52391627/229071235-78b433ac-5c13-4674-bd6a-11bde42d6497.png)
+
+따라서 원격저장소인 github에 올려야합니다. 이때 우리는 git push 명령어를 사용해요. 
+이렇게 원격저장소에 올리면 다른 개발자는 변경내역을 확인할 수 있습니다. 
+![image](https://user-images.githubusercontent.com/52391627/229071504-1faffde1-e76a-447a-b779-4623daf171c0.png)
+
+하지만 본인이 작업하고 있는 PC에는 자동으로 적용되지않습니다. 
+그래서 다른 개발자는 git pull명령어를 이용해서 변경된 내역들을 끌어옵니다. 
+
